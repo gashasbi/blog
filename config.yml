@@ -1,0 +1,205 @@
+baseURL: "https://hrdn.ir/"
+title: Hardening
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+defaultContentLanguage: fa
+enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - :git
+    - date
+    - publishDate
+
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  fa:
+    languagedirection: rtl
+    title: هاردنینگ
+    font: Shabnam
+    weight: 10
+
+  # en:
+  #   languagedirection: ltr
+  #   title: Hardening
+  #   font: arial
+  #   weight: 20
+
+params:
+  env: production  # to enable google analytics, opengraph, twitter-cards and schema.
+  title: هاردنینگ | فعال در حوزه تحقیقات امنیت سایبری 
+  description: با بهره‌گیری از تحقیقات و راهکارهای امنیت سایبری، امنیت سیستم های دیجیتال خود را در برابر تهدیدات و حملات سایبری ارتقا دهید 
+  keywords: [Hardening, Portfolio Mansour Gashasbi, Mansour Gashasbi,منصور گشسبی ,هاردنینگ,SAST, DAST, SCA, Static code Analysis, Dynamic code analysis, Code Security, Code Review,Code Metrics
+  Code Quality, امنیت سورس کد, مقاوم سازی شبکه, امنیت, Security of Source Code, Security, Code Secure, Bug Detection, Security Hardening, OS Hardening, Standard Hardening,
+  harden of Systems, Vulnerability Management, Network Hardening, امنیت سایبری, Cyber Security]
+  author: Mansour Gashasbi
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  defaultContentLanguage: fa
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/fav/favicon.ico"
+    favicon16x16: "/fav/favicon-16x16.png"
+    favicon32x32: "/fav/favicon-32x32.png"
+    favicon64x64: "/fav/favicon-64x64.png"
+    android-chrome-192x192: "/fav/android-chrome-192x192.png"
+    android-chrome-512x512: "/fav/android-chrome-512x512.png"
+    apple_touch_icon: "/fav/apple-touch-icon.png"
+    #safari_pinned_tab: "/"
+
+  label:
+
+
+
+    text: "hrdn"
+    # icon:
+    # iconHeight: 35
+
+
+  # home-info mode
+
+  homeInfoParams:
+    Title: "هاردنینگ"
+    Content:
+      در این اینجا، به بررسی استانداردها و بهترین روش‌ها برای بهبود امنیت، به‌ویژه امنیت در حوزه نرم‌افزار خواهم پرداخت.
+      
+
+  searchInfoParams:
+    Title: "موضوع مورد نظرتان را جستجو کنید..."
+    Content:
+      در مورد جستجو
+
+  social:
+    - name: twitter
+      url: "https://twitter.com/mgashasbi"
+
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+    #  editPost:
+    #  URL: "https://github.com/<path_to_repo>/content"
+    #Text: "Suggest Changes" # edit text
+    # appendFilePath: true # to append file path to Edit link
+
+    #for search
+    #https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+
+menu:
+  main:
+    - identifier: categories
+      name: دسته بندی
+      url: /categories/
+      weight: 40
+
+
+    - identifier: tags
+      name: برچسب 
+      url: /tags/
+      weight: 30
+
+
+
+
+    - identifier: posts
+      name: مقالات 
+      url: /posts/
+      weight: 20
+
+
+    - identifier: projects
+    - name: پروژه ها
+      pageRef: /projects/
+      weight: 10
+      url: /projects/
+
+    - name: پروژه اول
+      pageRef: /projects/111
+      url: /projects/my-projects
+      parent: پروژه ها
+      weight: 1
+
+
+    - identifier: aboutme
+      name: درباره من 
+      url: http://gashasbi.ir/
+      weight: 50
+
+
+    - identifier: search
+      name: 🔍
+      url: /search/
+      weight: 60
+
+# for a search page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+
+# Default content language
+
+

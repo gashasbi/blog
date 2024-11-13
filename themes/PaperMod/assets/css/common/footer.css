@@ -1,0 +1,63 @@
+:root {
+    --footer-background:#202020; /* Dark mode footer background */
+    --footer-text-color: #f5f5f5; /* Match header text color */
+    --footer-hover-color: var(--header-hover-text-color); /* Match hover color */
+    --footer-border-color: var(--header-hover-background); /* Border color similar to header */
+}
+
+.dark-mode {
+    --footer-background: #444; /* Dark background for footer in dark mode */
+    --footer-text-color: rgb(255, 255, 255); /* White text for visibility */
+}
+
+/* Footer Container */
+.footer {
+    background-color: var(--footer-background); /* Use the footer background */
+    color: var(--footer-text-color); /* Use the footer text color */
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center; /* Center the text */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow to separate from content */
+}
+
+/* Footer Links */
+.footer a {
+    color: var(--footer-text-color); /* Use footer text color */
+    text-decoration: none; /* No underline */
+    border-bottom: 1px solid var(--footer-border-color); /* Underline effect */
+    transition: color 0.3s, border-color 0.3s; /* Smooth transition for hover */
+}
+
+.footer a:hover {
+    color: #dad5d5b6; /* Change color on hover */
+    border-bottom: 1px solid #dad5d5b6; /* Change border color on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Top Link Button */
+.top-link {
+    visibility: hidden; /* Initially hidden */
+    position: fixed;
+    bottom: 60px; /* Position from bottom */
+    right: 30px; /* Position from right */
+    z-index: 99;
+    background: var(--footer-background); /* Use footer background */
+    color: var(--footer-text-color);
+    width: 42px;
+    height: 42px;
+    padding: 12px;
+    border-radius: 50%; /* Circular shape */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: visibility 0.5s, opacity 0.8s linear; /* Transition for visibility and opacity */
+}
+
+.top-link:hover {
+    color: var(--footer-hover-color); /* Change color on hover */
+}
+
+/* To display the button when needed, set visibility to visible using JavaScript */

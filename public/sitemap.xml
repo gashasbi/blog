@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/tags/%23%D9%BE%D8%B1%D9%88%DA%98%D9%87_%D9%87%D8%A7/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/my-projects/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+    <lastmod>2023-07-03T08:15:40+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+    <lastmod>2023-07-07T12:15:00+03:30</lastmod>
+  </url>
+</urlset>
