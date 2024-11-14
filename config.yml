@@ -29,8 +29,10 @@ languages:
   fa:
     languagedirection: rtl
     title: هاردن
-    font: Shabnam
     weight: 10
+    params:
+        font: Shabnam
+    
 
   # en:
   #   languagedirection: ltr
@@ -41,7 +43,8 @@ languages:
 params:
   env: production  # to enable google analytics, opengraph, twitter-cards and schema.
   title: هاردن | فعال در حوزه تحقیقات امنیت سایبری 
-  description: با بهره‌گیری از تحقیقات و راهکارهای امنیت سایبری، امنیت سیستم های دیجیتال خود را در برابر تهدیدات و حملات سایبری ارتقا دهید 
+  description:  مکانی برای به اشتراک‌گذاری محتوا در زمینه تقویت سیستم‌ها در برابر حملات سایبری
+
   keywords: [Harden, Hardening, Portfolio Mansour Gashasbi, Mansour Gashasbi,منصور گشسبی ,هاردنینگ,SAST, DAST, SCA, Static code Analysis, Dynamic code analysis, Code Security, Code Review,Code Metrics
   Code Quality, امنیت سورس کد, مقاوم سازی شبکه, امنیت, Security of Source Code, Security, Code Secure, Bug Detection, Security Hardening, OS Hardening, Standard Hardening,
   harden of Systems, Vulnerability Management, Network Hardening, امنیت سایبری, Cyber Security]
@@ -134,6 +137,14 @@ params:
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 
+ignoreLogs:
+  - "warning-goldmark-raw-html"
+  
+contentDir: "content"
+outputDir: "public"
+publishDir: "public"
+mediaDir: "static"
+dateFormat: "2006-01-02"
 
 
 menu:
