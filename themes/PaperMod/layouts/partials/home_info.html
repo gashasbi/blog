@@ -1,7 +1,9 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <div class="side-logo">
-
+        {{ $image := resources.Get "images/logo.png" }}
+        <img class="entry-image" src="{{ $image.Permalink }}" alt="Logo" width="{{ $image.Width }}"
+             height="{{ $image.Height }}">
         <header class="entry-header">
             <h1>{{ .Title | markdownify }}</h1>
         </header>

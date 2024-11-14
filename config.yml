@@ -1,7 +1,7 @@
 baseURL: "https://hrdn.ir/"
-title: Hardening
+title: Harden
 pagination:
-  pagerSize: 5
+  pagerSize: 6
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -28,21 +28,21 @@ minify:
 languages:
   fa:
     languagedirection: rtl
-    title: هاردنینگ
+    title: هاردن
     font: Shabnam
     weight: 10
 
   # en:
   #   languagedirection: ltr
-  #   title: Hardening
+  #   title: Harden
   #   font: arial
   #   weight: 20
 
 params:
   env: production  # to enable google analytics, opengraph, twitter-cards and schema.
-  title: هاردنینگ | فعال در حوزه تحقیقات امنیت سایبری 
+  title: هاردن | فعال در حوزه تحقیقات امنیت سایبری 
   description: با بهره‌گیری از تحقیقات و راهکارهای امنیت سایبری، امنیت سیستم های دیجیتال خود را در برابر تهدیدات و حملات سایبری ارتقا دهید 
-  keywords: [Hardening, Portfolio Mansour Gashasbi, Mansour Gashasbi,منصور گشسبی ,هاردنینگ,SAST, DAST, SCA, Static code Analysis, Dynamic code analysis, Code Security, Code Review,Code Metrics
+  keywords: [Harden, Hardening, Portfolio Mansour Gashasbi, Mansour Gashasbi,منصور گشسبی ,هاردنینگ,SAST, DAST, SCA, Static code Analysis, Dynamic code analysis, Code Security, Code Review,Code Metrics
   Code Quality, امنیت سورس کد, مقاوم سازی شبکه, امنیت, Security of Source Code, Security, Code Secure, Bug Detection, Security Hardening, OS Hardening, Standard Hardening,
   harden of Systems, Vulnerability Management, Network Hardening, امنیت سایبری, Cyber Security]
   author: Mansour Gashasbi
@@ -90,10 +90,10 @@ params:
   # home-info mode
 
   homeInfoParams:
-    Title: "هاردنینگ"
+    Title: "هاردن"
     Content:
-      در این اینجا، به بررسی استانداردها و بهترین روش‌ها برای بهبود امنیت، به‌ویژه امنیت در حوزه نرم‌افزار خواهم پرداخت.
-      
+        مکانی برای به اشتراک‌گذاری محتوا در زمینه تقویت سیستم‌ها در برابر حملات سایبری.
+
 
   searchInfoParams:
     Title: "موضوع مورد نظرتان را جستجو کنید..."
