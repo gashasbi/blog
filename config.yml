@@ -27,6 +27,7 @@ minify:
 
 languages:
   fa:
+    languageCode: "fa"
     languagedirection: rtl
     title: هاردن
     weight: 10
