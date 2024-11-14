@@ -27,4 +27,3 @@ Categorize: پروژه ها
 
 
 
-<img src="/images/prof.jpg" alt="projects" width="300" height="400">
